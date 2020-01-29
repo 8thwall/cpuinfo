@@ -18,6 +18,7 @@ uint32_t cpuinfo_cores_count = 0;
 uint32_t cpuinfo_clusters_count = 0;
 uint32_t cpuinfo_packages_count = 0;
 uint32_t cpuinfo_cache_count[cpuinfo_cache_level_max] = { 0 };
+uint32_t cpuinfo_max_cache_size = 0;
 
 
 const struct cpuinfo_processor* cpuinfo_get_processors(void) {

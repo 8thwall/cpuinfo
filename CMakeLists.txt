@@ -119,7 +119,8 @@ ENDIF()
 # ---[ cpuinfo library
 SET(CPUINFO_SRCS
   src/init.c
-  src/api.c)
+  src/api.c
+  src/cache.c)
 
 IF(CPUINFO_SUPPORTED_PLATFORM)
   IF(CMAKE_SYSTEM_PROCESSOR MATCHES "^(i[3-6]86|AMD64|x86(_64)?)$" OR IOS_ARCH MATCHES "^(i386|x86_64)$")
